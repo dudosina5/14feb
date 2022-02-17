@@ -1,5 +1,17 @@
 body {
     margin: 0;
     background-color: #111;
+
     color: #fff;
+}
+
+.q_wrapper {
+    max-width: 600px;
+    width: 100%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+img {
+    width: 100%;
 }
