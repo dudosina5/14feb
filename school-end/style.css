@@ -1,0 +1,27 @@
+body {
+    margin: 0 8px;
+    padding: 0;
+
+    background-color: rgb(26, 22, 35);
+    color: #fff;
+
+    font-family: 'Roboto', sans-serif;
+}
+
+a {
+    color: rgb(202, 202, 202);
+}
+
+*,
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+.message {
+    padding: 25px 0;
+}
+
+.message__author {
+    font-size: 14px;
+}
