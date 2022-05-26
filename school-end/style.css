@@ -18,8 +18,18 @@ a {
     box-sizing: border-box;
 }
 
+.page {
+    max-width: 1000px;
+    width: 100%;
+    margin: 0 auto;
+}
+
 .message {
     padding: 25px 0;
+}
+
+.messsage__text {
+    text-align: justify;
 }
 
 .message__author {
