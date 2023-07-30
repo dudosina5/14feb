@@ -1,0 +1,868 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="google" content="notranslate">
+<link
+  rel="stylesheet"
+  href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"
+/>
+<link rel="stylesheet" href="assets/css/style.min.css">
+<title>MI Bike</title>
+</head>
+<body>
+
+    <div class="page">
+        <header class="header">
+    <div class="container">
+        <div class="header__inner">
+
+            <div class="header__logo">
+                <span class="header__logo--span">MI Bike</span>
+            </div>
+
+            <div class="menu__container">
+                <div class="menu__overlay">
+                    <div class="menu">
+                        <nav class="menu__nav">
+                            <a href="#battery" class="menu__nav--link">О продукте</a>
+                            <a href="#design" class="menu__nav--link">Внешний вид</a>
+                            <a href="#safety" class="menu__nav--link">Безопасность</a>
+                            <a href="#reviews" class="menu__nav--link">Отзывы</a>
+                            <a href="#faq" class="menu__nav--link">FAQ</a>
+                        </nav>
+                        <a href="#product" class="btn menu__btn menu__nav--link">Купить</a>
+                    </div>
+                </div>
+            </div>
+
+            <button class="btn burger__btn">
+                <div class="burger">
+                    <div class="burger__span"></div>
+                </div>
+            </button>
+            
+        </div>
+    </div>
+</header>
+
+<div class="overlay"></div>
+        <div class="intro">
+    <div class="container container__relative">
+        <div class="page__bg page__bg--intro"></div>
+        <div class="intro__inner">
+
+            <div class="intro__text">
+                <h1 class="intro__text--title">
+                    Стильный электросамокат<br>с мощным аккумулятором
+                </h1>
+                <p class="intro__text--sub">
+                    Улучшенная производительность<br> для дальних путешествий. <br>Работает так же просто, <br>как и выглядит.
+                </p>
+
+                <!-- Buttons for choose current color  -->
+                <div class="color-choise intro__color-choise" data-key="intro-bg">
+                    <button class="btn btn__transparent color-choise__btn" data-color="dark">Черный</button>
+                    <button class="btn btn__transparent color-choise__btn" data-color="light">Белый</button>
+
+                    <div class="color-choise__slider notrans"></div>
+                </div>
+            </div>
+
+            <!-- Bg Images of colors -->
+            <div id="intro-bg" data-color="dark" class="intro__bg intro__bg--dark"></div>
+            <div id="intro-bg" data-color="light" class="intro__bg intro__bg--light"></div>
+
+        </div>
+    </div>
+</div>
+        <div class="about battery" id="battery">
+    <div class="page__bg page__bg--battery"></div>
+    <div class="battery__overflow">
+        <div class="container">
+
+            <div class="about__inner battery__inner">
+
+                <h1 class="title">
+                    Мощная батарея и экономичный расход <br>заряда позволяют преодолевать <br>расстояния до 45 км
+                </h1>
+
+                <div class="about__content">
+
+                    <div class="about__tabs battery__tabs">
+     <div class="about__tabs--btns battery__tabs--btns">
+        <div class="about__tabs--slidebar hide">
+            <div class="about__tabs--bar"></div>
+        </div>
+
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Три режима скорости
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    Три режима езды позволяют почуствовать себя комфортно в любой ситуации. Режим «S» увеличитвает скорость, если опаздываете на работу. Во время прогулки по парку активируйте режим «D». Включите режим «Пешеход», когда двигаетесь по оживлённой улице.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/battery/battery-tab-1-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/battery/battery-tab-1-2.png">
+                    </div>
+                </div>
+            </button>
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Система восстановления энергии
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    Во время торможения и движения по инерции система преобразовывает кинетическую энергию в электрическую, позволяя увеличить общий запас хода самоката.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/battery/battery-tab-2-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/battery/battery-tab-2-2.png">
+                    </div>
+                </div>
+            </button>
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Мощная батарея
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    Самокат оснащен аккумулятором емкостью 12 800 мАч. Это позволяет преодолевать расстояния до 45 км без подзарядки.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/battery/battery-tab-3-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/battery/battery-tab-3-2.png">
+                    </div>
+                </div>
+            </button>
+        
+    </div>
+
+
+    <div class="about__tabs--items">
+
+        <div class="about__tabs--overflow about__tabs--overflow__foreground">
+            <div class="about__tabs--wrapper about__tabs--wrapper__foreground">
+
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/battery/battery-tab-1-1.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/battery/battery-tab-2-1.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/battery/battery-tab-3-1.png" alt="">
+                        </div>
+                    </div>
+                
+
+            </div>
+        </div>
+
+        <div class="battery__spline"></div>
+            
+        <div class="about__tabs--overflow about__tabs--overflow__background">
+            <div class="about__tabs--wrapper about__tabs--wrapper__background">
+
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/battery/battery-tab-1-2.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/battery/battery-tab-2-2.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/battery/battery-tab-3-2.png" alt="">
+                        </div>
+                    </div>
+                
+
+            </div>
+        </div>
+        
+    </div>
+
+
+</div>
+                
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+        <div class="engine__fullscreen">
+    <div class="engine__bg">
+        <img src="assets/images/engine/engine-bg.png" alt="">
+    </div>
+    <div class="engine">
+        <div class="container">
+            
+            <div class="engine__inner">
+                <div class="engine__main">
+
+                    <div class="engine__logo">
+                        <img src="assets/images/logo-white.svg" alt="MI">
+                    </div>
+
+                    <h1 class="title engine__title">
+                        Высокая скорость <br>передвижения
+                    </h1>
+
+                    <p class="paragraph engine__paragraph">
+                        Двигатель мощностью до 600 Вт позволяет развивать скорость до 25 км/ч.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+        <div class="design__overflow">
+            <div class="design" id="design">
+    <div class="container">
+
+        <h1 class="title design__title">
+            Лаконичный современный дизайн, <br>в котором нет ничего лишнего
+        </h1>
+
+        <div class="design__items">
+
+            <div class="design__item">
+                <div class="design__item--photo">
+                    <img src="assets/images/design/design-item-2.jpg">
+                </div>
+                <div class="design__item--text">
+                    <h3 class="title title__sm design__item--text__title">
+                        Минималистичный дизайн
+                    </h3>
+                    <p class="paragraph design__item--text__paragraph">
+                        Рама, компоненты и аксессуары скутера выдержаны в едином стиле, где удобство пользователя выходит на первое место.  Одного прикосновения достаточно, чтобы запустить самокат.
+                    </p>
+                </div>
+            </div>
+            <div class="design__item">
+                <div class="design__item--photo">
+                    <img src="assets/images/design/design-item-1.jpg">
+                </div>
+                <div class="design__item--text">
+                    <h3 class="title title__sm design__item--text__title">
+                        Удобная панель управления
+                    </h3>
+                    <p class="paragraph design__item--text__paragraph">
+                        Удобно расположенные элементы управления. Отображение <br>8 типов данных в реальном времени: скорость, режим, заряд аккумулятора, состояние блокировки и другая информация.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+        </div>
+        
+        <div class="spline__overflow">
+            <div class="about safety" id="safety">
+    <div class="safety__overflow">
+        <div class="container">
+
+            <div class="about__inner safety__inner">
+
+                <h1 class="title">
+                    Заботится о вашей безопасности
+                </h1>
+
+                <div class="about__content">
+
+                    <div class="about__tabs safety__tabs">
+     <div class="about__tabs--btns safety__tabs--btns">
+        <div class="about__tabs--slidebar hide">
+            <div class="about__tabs--bar"></div>
+        </div>
+
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Яркие ходовые огни
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя других участников движения.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/safety/safety-tab-1-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/safety/safety-tab-1-2.png">
+                    </div>
+                </div>
+            </button>
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Двойная тормозная система
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    При нажатии наручку тормоза системы переднего и заднего колеса активируются последовательно, сокращая тормозной путь и обеспечивая безопасную и плавную остановку.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/safety/safety-tab-2-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/safety/safety-tab-2-2.png">
+                    </div>
+                </div>
+            </button>
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Яркая задняя фара
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    При включении ходовых огней задняя фара включается автоматически. При нажатии на ручку тормоза она начинает мигать, предупреждая других участников движения.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/safety/safety-tab-3-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/safety/safety-tab-3-2.png">
+                    </div>
+                </div>
+            </button>
+        
+            <button class="about__tabs--btn">
+                <h3 class="title__sm about__tabs--btn__title">
+                    Отражатели спереди, сбоку и сзади
+                </h3>
+                <p class="paragraph about__tabs--btn__text">
+                    Улучшенные отражатели, размещенные с четырех сторон, делают вашу поездку <br>в темное время суток безопаснее.
+                </p>
+                <div class="about__tabs--images">
+                    <div class="about__tabs--images__large">
+                        <img src="assets/images/safety/safety-tab-4-1.png">
+                    </div>
+                    <div class="about__tabs--images__small">
+                        <img src="assets/images/safety/safety-tab-4-2.png">
+                    </div>
+                </div>
+            </button>
+        
+    </div>
+
+
+    <div class="about__tabs--items">
+
+        <div class="about__tabs--overflow about__tabs--overflow__foreground">
+            <div class="about__tabs--wrapper about__tabs--wrapper__foreground">
+
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/safety/safety-tab-1-1.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/safety/safety-tab-2-1.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/safety/safety-tab-3-1.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__large">
+                            <img src="assets/images/safety/safety-tab-4-1.png" alt="">
+                        </div>
+                    </div>
+                
+
+            </div>
+        </div>
+
+        <div class="safety__spline"></div>
+            
+        <div class="about__tabs--overflow about__tabs--overflow__background">
+            <div class="about__tabs--wrapper about__tabs--wrapper__background">
+
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/safety/safety-tab-1-2.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/safety/safety-tab-2-2.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/safety/safety-tab-3-2.png" alt="">
+                        </div>
+                    </div>
+                
+                    <div class="about__tab">
+                        <div class="about__tab--img about__tab--img__small">
+                            <img src="assets/images/safety/safety-tab-4-2.png" alt="">
+                        </div>
+                    </div>
+                
+
+            </div>
+        </div>
+        
+    </div>
+
+
+</div>
+                    
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+            <div class="download__overflow">
+    <div class="container">
+
+        <div class="download">
+
+            <div class="download__text">
+                <h1 class="title download__title">
+                    Мобильное приложение Mi Home
+                </h1>
+    
+                <p class="paragraph download__paragraph">
+                    Подключите самокат к мобильному приложению Mi Home и используйте его для блокировки и разблокировки самоката, а так же просмотра основных данных: пробег, скорость, уровень заряда аккумулятора.
+                </p>
+    
+                <div class="download__buttons">
+                    <a href="#" class="download__btn download__btn--appstore">
+                        App Store
+                    </a>
+                    <a href="#" class="download__btn download__btn--google">
+                        Google Store
+                    </a>
+                </div>
+            </div>
+
+            <div class="download__phone"></div>
+
+        </div>
+
+    </div>
+</div>
+        </div>
+        
+        <div class="brand">
+    <div class="swiper brand__slider">
+
+        <div class="swiper-wrapper">
+
+
+            <div class="swiper-slide brand__slide">
+                <div class="brand__slide--bg">
+                    <img src="assets/images/brand/brand-slide-1.jpg">
+                </div>
+                <div class="brand__slide--bg brand__slide--bg__response">
+                    <img src="assets/images/brand/brand-slide-1-response.jpg">
+                </div>
+                <div class="brand__slide--position">
+                    <div class="container brand__slide--container">
+                        <div class="brand__slide--inner">
+                            <div class="brand__slide--logo">
+                                <img src="assets/images/logo-red.svg" alt="MI">
+                            </div>
+                            <h1 class="title brand__slide--title">
+                                О бренде Xiaomi
+                            </h1>
+                            <div class="brand__slide--paragraphs">
+                                <p class="paragraph brand__slide--paragraph">
+                                    Компания Xiaomi была основана предпринимателем Лей Цзюнем <br>в 2010 году под девизом - «Инновации для всех».
+                                </p>
+                                <p class="paragraph brand__slide--paragraph">
+                                    Мы верим, что высококачественные продукты и передовые технологии должны быть доступны каждому.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide brand__slide">
+                <div class="brand__slide--bg">
+                    <img src="assets/images/brand/brand-slide-1.jpg">
+                </div>
+                <div class="brand__slide--bg brand__slide--bg__response">
+                    <img src="assets/images/brand/brand-slide-1-response.jpg">
+                </div>
+                <div class="brand__slide--position">
+                    <div class="container brand__slide--container">
+                        <div class="brand__slide--inner">
+                            <div class="brand__slide--logo">
+                                <img src="assets/images/logo-red.svg" alt="MI">
+                            </div>
+                            <h1 class="title brand__slide--title">
+                                О бренде Xiaomi
+                            </h1>
+                            <div class="brand__slide--paragraphs">
+                                <p class="paragraph brand__slide--paragraph">
+                                    Компания Xiaomi была основана предпринимателем Лей Цзюнем <br>в 2010 году под девизом - «Инновации для всех».
+                                </p>
+                                <p class="paragraph brand__slide--paragraph">
+                                    Мы верим, что высококачественные продукты и передовые технологии должны быть доступны каждому.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="swiper-slide brand__slide">
+                <div class="brand__slide--bg">
+                    <img src="assets/images/brand/brand-slide-1.jpg">
+                </div>
+                <div class="brand__slide--bg brand__slide--bg__response">
+                    <img src="assets/images/brand/brand-slide-1-response.jpg">
+                </div>
+                <div class="brand__slide--position">
+                    <div class="container brand__slide--container">
+                        <div class="brand__slide--inner">
+                            <div class="brand__slide--logo">
+                                <img src="assets/images/logo-red.svg" alt="MI">
+                            </div>
+                            <h1 class="title brand__slide--title">
+                                О бренде Xiaomi
+                            </h1>
+                            <div class="brand__slide--paragraphs">
+                                <p class="paragraph brand__slide--paragraph">
+                                    Компания Xiaomi была основана предпринимателем Лей Цзюнем <br>в 2010 году под девизом - «Инновации для всех».
+                                </p>
+                                <p class="paragraph brand__slide--paragraph">
+                                    Мы верим, что высококачественные продукты и передовые технологии должны быть доступны каждому.
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Old Slide -->
+            <!-- <div class="swiper-slide brand__slide" style="background-image: url(assets/images/brand/brand-slide-1.jpg);">
+                <div class="container brand__slide--container">
+                    <div class="brand__slide--inner">
+                        <div class="brand__slide--logo">
+                            <img src="assets/images/logo-red.svg" alt="MI">
+                        </div>
+                        <h1 class="title brand__slide--title">
+                            О бренде Xiaomi
+                        </h1>
+                        <div class="brand__slide--paragraphs">
+                            <p class="paragraph brand__slide--paragraph">
+                                Компания Xiaomi была основана предпринимателем Лей Цзюнем <br>в 2010 году под девизом - «Инновации для всех».
+                            </p>
+                            <p class="paragraph brand__slide--paragraph">
+                                Мы верим, что высококачественные продукты и передовые технологии должны быть доступны каждому.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+
+
+        </div>
+        <div class="swiper-pagination brand__pagination"></div>
+    </div>
+</div>
+
+        <div class="spline__overflow">
+            <div class="reviews__overflow">
+
+    <div class="reviews__bg--overflow">
+        <div class="container">
+            <div class="reviews__bg"></div>
+        </div>
+    </div>
+    
+    <div class="reviews" id="reviews">
+        <div class="container">
+            <h1 class="title reviews__title">Отзывы о Mi Scooter Pro 2</h1>
+        </div>
+
+        <div class="reviews__slider--overflow">
+            <div class="container">
+                <div class="swiper reviews__slider">
+                    <div class="swiper-wrapper">
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Михаил Сафронов
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая резина и дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата, развесовка).<br> <br> В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+    </p>
+</div>
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Имя скрыто
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Владею также первой версией самоката (m365). <br>В версии pro 2 исправлено множество недостатков m365:<br><br>- усилен узел складывания и язычок<br>- батарея находится в отдельном жёстком алюминиевом корпусе, что исключает её поломку из-за тряски<br>- установлена поддержка заднего крыла и защита провода заднего габарита.
+    </p>
+</div>
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Алексей З.
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Мой вес 57кг, прошитый с максимальной 32км в час в режиме S по Москве у меня осилил - 25км и еще оставалось 16% заряда.<br><br>ОБЯЗАТЕЛЬНО: следите за давлением в камерах. Прям очень советую купить электронный насос от Xiaomi, и раз в неделю подкачивайте. С завода самокат приезжает с сильно недокачанными
+    </p>
+</div>
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Михаил Сафронов
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Выбирал между двумя моделями: этим Mi Scooter Pro 2 и Ninebot Max 30P, в плюсах Макса - десятидюймовая резина и дальность пробега на одном заряде, скорость зарядки. В плюсах Xiaomi - Удобства переноски (вес аппарата, развесовка).<br> <br> В итоге купил Xiaomi и поставил 10 дюймовые шины - получил комфорт при небольшом весе самоката.
+    </p>
+</div>
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Имя скрыто
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Владею также первой версией самоката (m365). <br>В версии pro 2 исправлено множество недостатков m365:<br><br>- усилен узел складывания и язычок<br>- батарея находится в отдельном жёстком алюминиевом корпусе, что исключает её поломку из-за тряски<br>- установлена поддержка заднего крыла и защита провода заднего габарита.
+    </p>
+</div>
+
+                        <div class="swiper-slide reviews__slide">
+    <h1 class="title__sm reviews__slide--name">
+        Алексей З.
+    </h1>
+    <p class="paragraph reviews__slide--paragraph">
+        Мой вес 57кг, прошитый с максимальной 32км в час в режиме S по Москве у меня осилил - 25км и еще оставалось 16% заряда.<br><br>ОБЯЗАТЕЛЬНО: следите за давлением в камерах. Прям очень советую купить электронный насос от Xiaomi, и раз в неделю подкачивайте. С завода самокат приезжает с сильно недокачанными
+    </p>
+</div>
+
+
+                    </div>
+                </div>
+
+                <div class="reviews__controls">
+                    <div class="reviews__btn">
+                        <button class="btn">
+                            Оставить отзыв
+                        </button>
+                    </div>
+
+                    <div class="reviews__slider--pagination"></div>
+
+                    <div class="reviews__slider--controls">
+                        <button class="btn reviews__slider--btn reviews__slider--btn__prev">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.8287 19C13.5367 19 13.2467 18.873 13.0487 18.627L8.22066 12.627C7.92266 12.256 7.92666 11.726 8.23166 11.36L13.2317 5.35998C13.5847 4.93598 14.2157 4.87898 14.6407 5.23198C15.0647 5.58498 15.1217 6.21598 14.7677 6.63998L10.2927 12.011L14.6077 17.373C14.9537 17.803 14.8857 18.433 14.4547 18.779C14.2707 18.928 14.0487 19 13.8287 19Z"/>
+                            </svg>
+                        </button>
+                        <button class="btn reviews__slider--btn reviews__slider--btn__next">
+                            <svg width="24" height="24" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+                                <path fill-rule="evenodd" clip-rule="evenodd" d="M10.1713 19C10.4633 19 10.7533 18.873 10.9513 18.627L15.7793 12.627C16.0773 12.256 16.0733 11.726 15.7683 11.36L10.7683 5.35998C10.4153 4.93598 9.78434 4.87898 9.35934 5.23198C8.93534 5.58498 8.87834 6.21598 9.23234 6.63998L13.7073 12.011L9.39234 17.373C9.04634 17.803 9.11434 18.433 9.54534 18.779C9.72934 18.928 9.95134 19 10.1713 19Z"/>
+                            </svg>
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+            <div class="faq__overflow">
+    <div class="container">
+
+        <div class="faq" id="faq">
+
+            <div class="faq__text">
+                <h1 class="title faq__text--title">
+                    Часто задаваемые вопросы
+                </h1>
+                <p class="paragraph faq__text--paragraph">
+                    Все ваши часто задаваемые вопросы<br>о электросамокате Mi Scooter Pro 2.<br><br>Если у вас есть собственный вопрос - задайте <br>его через форму обратной связи.
+                </p>
+                <button class="btn faq__text--btn">
+                    Задать вопрос
+                </button>
+            </div>
+
+            <div class="faq__items">
+                <div class="faq__item">
+    <h1 class="title title__sm faq__item--title">
+        На него нужны права категории M?
+    </h1>
+    <p class="paragraph faq__item--paragraph">
+        Продуманный угол рассеивания света позволяет сохранять хорошую видимость, не ослепляя <br>других участников движения.
+    </p>
+</div>
+                <div class="faq__item">
+    <h1 class="title title__sm faq__item--title">
+        У меня вес 135 кг, выдержит ли этот самокат?
+    </h1>
+    <p class="paragraph faq__item--paragraph">
+        Самокат определенно выдержит и будет ехать, но не с максимальной скоростью.
+    </p>
+</div>
+                <div class="faq__item">
+    <h1 class="title title__sm faq__item--title">
+        Есть ли влагозащита?
+    </h1>
+    <p class="paragraph faq__item--paragraph">
+        Электросамокат имеет степень защиты IP54. Он защищен от попадания пыли и брызг, падающих <br>в любом направлении. Погружение в воду может привести к поломке. 
+    </p>
+</div>
+                <div class="faq__item">
+    <h1 class="title title__sm faq__item--title">
+        Это версия для Китая или Европы?
+    </h1>
+    <p class="paragraph faq__item--paragraph">
+        Это Европейская версия, со всеми обновлениями и евро-вилкой.
+    </p>
+</div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+            <div class="product__overflow" id="product">
+    <div class="container">
+
+        <div class="product">
+            <div class="product__inner">
+
+                <div id="product-bikes" data-color="dark" class="product__bike product__bike--dark"></div>
+                <div id="product-bikes" data-color="light" class="product__bike product__bike--light"></div>
+                    
+                <div class="product__main">
+                    <h1 class="title product__main--title">
+                        Mi Electric Scooter Pro 2
+                    </h1>
+                    <h2 class="sub product__main--price">
+                        54 990 ₽
+                    </h2>
+                    <div class="color-choise product__main--color-choise" data-key="product-bikes">
+                        <button class="btn btn__transparent color-choise__btn" data-color="dark">Черный</button>
+                        <button class="btn btn__transparent color-choise__btn" data-color="light">Белый</button>
+
+                        <div class="color-choise__slider notrans"></div>
+                    </div>
+                    <button class="btn btn__red product__main--btn">Купить</button>
+                </div>
+
+                <div class="product__info">
+                    <h1 class="title__sm product__info--title">Комплект поставки</h1>
+                    <ul class="product__info--list">
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Адаптер питания</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Шестигранный ключ</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Удлинитель для насоса</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Винты x 5 шт.</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Запасная шина</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Руководство пользователя</p>
+                        </li>
+                        <li class="product__info--list-item">
+                            <p class="paragraph">Буклет с информацией</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</div>
+        </div>
+
+        <footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+
+            <div class="footer__column">
+                <span class="paragraph footer__column--span">
+                    &copy; 2010 - 2021 Xiaomi.
+                </span>
+                <span class="paragraph footer__column--span">
+                    Все права защищены.
+                </span>
+            </div>
+            
+            <div class="footer__column">
+                <a href="tel:+375332222222" class="paragraph footer__column--span">
+                    8 800 775 66 15
+                </a>
+                <span class="paragraph footer__column--span">
+                    Часы работы с 9:00 до 20:00 МСК, Пн. – Пт.
+                </span>
+            </div>
+
+        </div>
+
+    </div>
+</footer>
+
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="assets/js/app.min.js"></script>
+</body>
+</html>
