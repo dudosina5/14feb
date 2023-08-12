@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio Custom Controls</title>
+    <meta name="google" content="notranslate">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="player">
+        <audio class="player__audio" src="tracks/track-1/audio.mp3"></audio>
+        <!-- <input type="range" value="0" class="player__progress"> -->
+        <div class="player__progress">
+            <div class="player__progress--bar"></div>
+        </div>
+        <input type="range" value="100" class="player__volume" style="display: none;">
+        <div class="player__controls">
+            <button class="player__controls--btn player__controls--btn__prev"></button>
+            <button class="player__controls--btn player__controls--btn__play"></button>
+            <button class="player__controls--btn player__controls--btn__next"></button>
+        </div>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
